@@ -12,7 +12,7 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#top">Evrade Safou</a>
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">ES</span> Evrade Safou</a>
     <nav aria-label="Navigation principale">
       <a href="#services">Services</a>
       <a href="#projets">Projets</a>
@@ -23,12 +23,22 @@
 
   <main id="top">
     <section class="hero reveal" aria-labelledby="hero-title">
-      <p class="eyebrow">Développeur web junior — Tours, France</p>
-      <h1 id="hero-title">Evrade Safou</h1>
-      <p class="hero-text">Je construis des sites simples et rapides, j'automatise des tâches avec Python, et je monte des vidéos pour le web et les réseaux sociaux.</p>
-      <div class="hero-actions">
-        <a class="button" href="#services">Voir les services</a>
-        <a class="button button-ghost" href="https://github.com/nostop10" target="_blank" rel="noopener">GitHub — @nostop10</a>
+      <div class="hero-main">
+        <p class="eyebrow">Disponible pour des missions freelance</p>
+        <h1 id="hero-title">Evrade <span class="gradient-text">Safou</span></h1>
+        <p class="hero-role">Développeur web junior — Tours, France</p>
+        <p class="hero-text">Je construis des sites simples et rapides, j'automatise des tâches avec Python, et je monte des vidéos pour le web et les réseaux sociaux.</p>
+        <div class="hero-actions">
+          <a class="button" href="#services">Voir les services</a>
+          <a class="button button-ghost" href="https://github.com/nostop10" target="_blank" rel="noopener">GitHub — @nostop10</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <p class="hero-card-bar"><span></span><span></span><span></span></p>
+        <p><span class="code-key">nom</span> = <span class="code-string">"Evrade Safou"</span></p>
+        <p><span class="code-key">rôle</span> = <span class="code-string">"développeur web junior"</span></p>
+        <p><span class="code-key">compétences</span> = [<span class="code-string">"HTML/CSS"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"montage vidéo"</span>]</p>
+        <p><span class="code-key">ville</span> = <span class="code-string">"Tours"</span></p>
       </div>
     </section>
 
@@ -37,18 +47,22 @@
       <p class="section-intro">Quatre services, sans tarif affiché pour l'instant — à compléter.</p>
       <div class="cards">
         <article class="card">
+          <p class="card-number">01</p>
           <h3>Script Python</h3>
           <p>Automatisation de tâches répétitives et petits outils sur mesure.</p>
         </article>
         <article class="card">
+          <p class="card-number">02</p>
           <h3>Site vitrine one-page</h3>
           <p>Une page claire et rapide pour présenter une activité et être contacté.</p>
         </article>
         <article class="card">
+          <p class="card-number">03</p>
           <h3>Montage vidéo</h3>
           <p>Montage pour réseaux sociaux et YouTube.</p>
         </article>
         <article class="card">
+          <p class="card-number">04</p>
           <h3>Débogage web</h3>
           <p>Correction de bugs sur un site existant, HTML, CSS et JavaScript.</p>
         </article>
@@ -59,9 +73,9 @@
       <h2 id="projets-title">Projets GitHub</h2>
       <p class="section-intro">Travaux de formation Holberton, publiés sur GitHub. Aucun projet client n'est présenté ici pour l'instant.</p>
       <ul class="project-list">
-        <li><a href="https://github.com/nostop10/holbertonschool-low_level_programming" target="_blank" rel="noopener">holbertonschool-low_level_programming</a> — Programmation bas niveau, en C.</li>
-        <li><a href="https://github.com/nostop10/holbertonschool-simple_shell" target="_blank" rel="noopener">holbertonschool-simple_shell</a> — Interpréteur de commandes, en C.</li>
-        <li><a href="https://github.com/nostop10/holbertonschool-shell" target="_blank" rel="noopener">holbertonschool-shell</a> — Travaux Shell.</li>
+        <li><span class="lang-dot lang-c" aria-hidden="true"></span><a href="https://github.com/nostop10/holbertonschool-low_level_programming" target="_blank" rel="noopener">holbertonschool-low_level_programming</a> <span class="project-desc">— Programmation bas niveau, en C.</span></li>
+        <li><span class="lang-dot lang-c" aria-hidden="true"></span><a href="https://github.com/nostop10/holbertonschool-simple_shell" target="_blank" rel="noopener">holbertonschool-simple_shell</a> <span class="project-desc">— Interpréteur de commandes, en C.</span></li>
+        <li><span class="lang-dot lang-shell" aria-hidden="true"></span><a href="https://github.com/nostop10/holbertonschool-shell" target="_blank" rel="noopener">holbertonschool-shell</a> <span class="project-desc">— Travaux Shell.</span></li>
       </ul>
       <p><a href="https://github.com/nostop10" target="_blank" rel="noopener">Voir tout le profil GitHub →</a></p>
     </section>
@@ -80,9 +94,11 @@
     </section>
 
     <section id="contact" class="section reveal" aria-labelledby="contact-title">
-      <h2 id="contact-title">Contact</h2>
-      <p>Adresse e-mail : <strong>à compléter</strong>.</p>
-      <p>En attendant, le profil GitHub est le point de contact public : <a href="https://github.com/nostop10" target="_blank" rel="noopener">github.com/nostop10</a>.</p>
+      <div class="contact-panel">
+        <h2 id="contact-title">Contact</h2>
+        <p>Adresse e-mail : <strong>à compléter</strong>.</p>
+        <p>En attendant, le profil GitHub est le point de contact public : <a href="https://github.com/nostop10" target="_blank" rel="noopener">github.com/nostop10</a>.</p>
+      </div>
     </section>
   </main>
 
